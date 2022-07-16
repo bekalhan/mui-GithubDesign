@@ -23,20 +23,21 @@ import {
 
 function RightSide() {
   return (
-    <Box flex={2} sx={{ display: { xs: "none", sm: "block" } }}>
-        <Box position="fixed" height="100vh" width={300} sx={{background:"#010409",marginRight:"5rem"}}>
-        <Card sx={{margin:5,background:"#0d1117",width:"100%",marginLeft:"5em",marginRight:"5rem",height:"200px"}}>
-            
-        </Card>
-        <Card sx={{margin:5,background:"#0d1117",width:"100%",marginLeft:"5em",marginRight:"5em",height:"200px"}}>
-            
-        </Card>
-        <Card sx={{margin:5,background:"#0d1117",width:"100%",marginLeft:"5em",marginRight:"5em",height:"200px"}}>
-            
-        </Card>
+    <Box flex={2} sx={{ display: { xs: "none", lg: "block" } }}>
+        <Box position="fixed" height="100vh" width={278} sx={{background:"#010409",marginRight:"5rem"}}>
+            <Card sx={{width:"80%",marginLeft:"27.8px",marginTop:"2em",height:"200px",background:"#0d1117"}}>
+            </Card>
+            <Card sx={{width:"80%",marginLeft:"27.8px",marginTop:"2em",height:"200px",background:"#0d1117"}}>
+            </Card>
+            <Card sx={{width:"80%",marginLeft:"27.8px",marginTop:"2em",height:"200px",background:"#0d1117"}}>
+            </Card>
+            <Card sx={{width:"80%",marginLeft:"27.8px",marginTop:"2em",height:"200px",background:"#0d1117"}}>
+            </Card>
         </Box>
     </Box>
   )
 }
 
-export default RightSide
+export default RightSide;
+
+//#010409  46.8+120=166.8 160+62.40 = 224.4

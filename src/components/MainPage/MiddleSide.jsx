@@ -17,7 +17,7 @@ import {
 
 function MiddleSide() {
   return (
-    <Box flex={6} sx={{marginLeft:"5rem"}}>
+    <Box flex={6} >
         <Box position="fixed" height="100vh" width={855} sx={{background:"#010409"}}>
         <Box sx={{display:"flex",justifyContent:"flex-start",marginLeft:"2em"}}> 
         <List sx={{display:"flex",color:"white",justifyContent:"flex-start",marginTop:"1em"}}>
