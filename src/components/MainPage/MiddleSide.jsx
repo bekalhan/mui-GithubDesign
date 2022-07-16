@@ -8,15 +8,17 @@ import {
     Switch,
     Avatar,
     useMediaQuery,
-    Box
+    Box,
+    Typography
   } from "@mui/material";
   import cedric from '../../img/ced7.jpeg';
+  import Starred from './Starred';
 
 
 function MiddleSide() {
   return (
-    <Box flex={2} p={{ xs: 0, md: 2 }}>
-        <Box position="fixed" height="100vh" width={600} sx={{background:"#010409"}}>
+    <Box flex={6} sx={{marginLeft:"5rem"}}>
+        <Box position="fixed" height="100vh" width={855} sx={{background:"#010409"}}>
         <Box sx={{display:"flex",justifyContent:"flex-start",marginLeft:"2em"}}> 
         <List sx={{display:"flex",color:"white",justifyContent:"flex-start",marginTop:"1em"}}>
                 <ListItem sx={{display:"flex",flexDirection:"column"}}>
@@ -30,7 +32,16 @@ function MiddleSide() {
         <Box sx={{width:"70%",marginLeft:"3em"}}>
             <hr></hr>
         </Box>
-        </Box>
+
+        <Starred />
+        <Starred />
+        <Starred />
+        <Starred />
+        
+    </Box>
+
+    
+
     </Box>
   )
 }

@@ -42,7 +42,7 @@ import {
 
 function LeftSide() {
   return (
-    <Box  flex={1} p={2} sx={{ display: { xs: "none", sm: "block" } }}>
+    <Box  flex={2} sx={{ display: { xs: "none", sm: "block" } }}>
         <Box position="fixed" width={300} height="100vh" sx={{background:"#0d1116"}}>
          <StartDiv>
             <Typography color="white" sx={{marginTop:"2rem",marginLeft:"2rem"}}>
